@@ -1,0 +1,28 @@
+body {
+    @x : 10%;
+    @y : 10%;
+    @top : 40%;
+    @left : 40%;
+    div {
+        display: block;
+        text-align: center;
+        position: absolute;
+        width: @x;
+        height: @y;
+
+        &.A {
+            background-color: yellow;
+            border: red solid;
+            top: @top;
+            left: @left;
+            
+        }
+    
+        &.B {
+            background-color: white;
+            border: blue solid;
+            top: @top + 5%;
+            left: @left + 5%;
+        }
+    }
+}

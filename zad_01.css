@@ -1,0 +1,19 @@
+body div {
+  display: block;
+  text-align: center;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+}
+body div.A {
+  background-color: yellow;
+  border: red solid;
+  top: 40%;
+  left: 40%;
+}
+body div.B {
+  background-color: white;
+  border: blue solid;
+  top: 45%;
+  left: 45%;
+}
